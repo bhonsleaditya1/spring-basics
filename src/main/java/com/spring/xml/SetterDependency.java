@@ -1,4 +1,4 @@
-package com.spring.learn;
+package com.spring.xml;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

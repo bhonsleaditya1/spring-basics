@@ -1,4 +1,4 @@
-package com.spring.learn;
+package com.spring.xml;
 
 public class App {
     public static void main(String[] args) {

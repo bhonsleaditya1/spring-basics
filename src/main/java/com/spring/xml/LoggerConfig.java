@@ -1,4 +1,4 @@
-package com.spring.learn;
+package com.spring.xml;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
