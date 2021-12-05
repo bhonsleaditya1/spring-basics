@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.spring'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.3.13'
+    implementation 'org.springframework:spring-context-support:5.3.13'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/org.springframework/spring-core
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.13'
+}
+
+test {
+    useJUnitPlatform()
+}
