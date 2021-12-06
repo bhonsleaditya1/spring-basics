@@ -8,5 +8,9 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--- add entry to enable component scanning-->
+    <context:property-placeholder location="classpath:annotations/sport.properties"/>
+    <bean id="customProcesssor"
+          class="com.spring.xml.PrototypeBeanProcessor">
+    </bean>
     <context:component-scan base-package="com.spring.annotations"/>
 </beans>
